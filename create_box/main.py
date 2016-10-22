@@ -11,8 +11,8 @@ def create_box(height, width, character):
     return box
 
 
-'''
-def create_box(height, width, character):
+
+def outline_box(height, width, character):
     full_row = character * width
     edge_row = character + ' '*(width-2) + character
     interior = ''
@@ -26,6 +26,3 @@ def create_box(height, width, character):
     
     return box
     
-lebox=create_box(10, 3, '7')
-print(lebox)
-'''
